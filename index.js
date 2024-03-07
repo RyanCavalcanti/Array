@@ -9,6 +9,7 @@ while(continuar){
     let desejaContinuar = prompt("Insira 1 caso deseje adicionar um novo nome")
     if(desejaContinuar != '1'){
         continuar = false;
+        continue;
     }
     posicaDoArray++;
 }
